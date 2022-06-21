@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600&display=swap');
+
+html,body{
+    overflow-x: hidden;
+}
+
+
+*{
+    font-family: 'Raleway', sans-serif;
+}
+.homesection{
+    background-image: linear-gradient(to right,rgba(174,96,213,0.7),
+    rgba(138,101,238,0.9)),url(/images/3d384d829dbf4b678cfea617114e149d--free-website-backgrounds-city-vector.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+}
+
+#firstcard img, #secondcard img, #thirdcard img{
+    background-color: #a25fd9;
+}
+
+#firstcard:hover img, #secondcard:hover img, #thirdcard:hover img{
+    background-color: rgb(255, 0, 140);
+    transition: .5s;
+}
+
+.anotherone{
+    background-image: linear-gradient(to right,rgba(174,96,213,0.7),
+    rgba(138,101,238,0.9)),url(/images/laptop.jpg);
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+#oppoA74{
+    background-image: linear-gradient(to right,rgba(174,96,213,0.7),rgba(138,101,238,0.9)),url('/images/3d384d829dbf4b678cfea617114e149d--free-website-backgrounds-city-vector.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+}  
+
